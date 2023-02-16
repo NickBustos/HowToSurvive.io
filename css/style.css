@@ -43,3 +43,8 @@ nav a:hover{
 body{
   background-color: #1e1d1d;
 }
+
+.row-center .col-3 .card{
+  align-items: center;
+  margin-left: 25px;
+}
