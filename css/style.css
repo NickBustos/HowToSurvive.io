@@ -45,6 +45,11 @@ footer{
 
 /* Small devices/mobile (0px to 579px) */
 @media (max-width: 579px) {
+  .card-img-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
   .row-center {
     flex-direction: column;
     align-items: center;
@@ -103,6 +108,18 @@ footer{
 
 /* Medium devices/tablets (768px to 992) */
 @media (min-width: 768px) {
+.card-img-top {
+    float: left;
+    width: 40px;
+}
+.card-body {
+    float: right;
+    text-align: right;
+}
+.card-title {
+    text-align: right;
+    width: 50%;
+}
   .row-center {
     align-items: center;
   }
