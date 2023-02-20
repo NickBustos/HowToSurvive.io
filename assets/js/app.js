@@ -10,3 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("navbarDropdown").addEventListener("click", function(e) {
+      this.classList.toggle("dropdown");
+      e.stopPropagation();
+    });
+  });
