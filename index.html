@@ -1,158 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./lib/css/bootstrap.css" />
-    <link rel="stylesheet" href="./lib/css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="./lib/css/bootstrapwatch.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script src="./assets/js/app.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <nav class="default">
-        <div class="row">
-          <div class="col-2">
-            <a href=""
-              ><img src="./assets/media/HowToSurviveLogo.png" alt=""
-            /></a>
-          </div>
-          <div class="col-1"><a href="">Home</a></div>
-          <div class="col-1"><a href="">About</a></div>
-          <div class="col-1"><a href="">Contact</a></div>
-          <div class="col-1"><a href="">Card</a></div>
-          <div class="col-1">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./lib/css/bootstrap.css" />
+  <link rel="stylesheet" href="./lib/css/bootstrap-grid.css" />
+  <link rel="stylesheet" href="./lib/css/bootstrapwatch.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="default">
+      <div class="row">
+        <div class="col-2">
+          <a href=""><img src="./assets/media/HowToSurviveLogo.png" alt="" /></a>
         </div>
-      </nav>
-  <!-- Nav mobile 2 -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Link 1 <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
+        <div class="col-1"><a href="">Home</a></div>
+        <div class="col-1"><a href="">About</a></div>
+        <div class="col-1"><a href="">Contact</a></div>
+        <div class="col-1"><a href="">Card</a></div>
+        <div class="col-1">
+        </div>
+    </nav>
+    <!-- Nav mobile 2 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href=""><img src="./assets/media/HowToSurviveLogo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Card</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="row-center">
+    <div class="col-3">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
+          alt="" />
+        <div class="card-body">
+          <h4 class="card-title">Title</h4>
+          <p class="card-text">Text</p>
+        </div>
+      </div>
     </div>
-  </nav>
+    <div class="col-3">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
+          alt="" />
+        <div class="card-body">
+          <h4 class="card-title">Title</h4>
+          <p class="card-text">Text</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
+          alt="" />
+        <div class="card-body">
+          <h4 class="card-title">Title</h4>
+          <p class="card-text">Text</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Nav mobile -->
-        <!-- <nav class="navbar navbar-light bg-light ">
-          <div class="container-fluid">
-            <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
-              data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div>
-        </nav>
-        <div class="collapse" id="navbarToggleExternalContent3">
-          <div class="bg-light shadow-3 p-4">
-            <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
-            <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
-            <button class="btn btn-link btn-block m-0">Link 3</button>
-          </div>
+  <section class="row-center">
+    <div class="col-3">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
+          alt="" />
+        <div class="card-body">
+          <h4 class="card-title">Title</h4>
+          <p class="card-text">Text</p>
         </div>
-        </nav> -->
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
+          alt="" />
+        <div class="card-body">
+          <h4 class="card-title">Title</h4>
+          <p class="card-text">Text</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
+          alt="" />
+        <div class="card-body">
+          <h4 class="card-title">Title</h4>
+          <p class="card-text">Text</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./assets/js/app.js"></script>
+</body>
 
-    </header>
-
-    <section class="row-center">
-      <div class="col-3">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="row-center">
-      <div class="col-3">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="https://cdn.pixabay.com/photo/2015/10/12/14/58/hands-984032_960_720.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-  </body>
 </html>
