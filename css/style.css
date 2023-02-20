@@ -67,8 +67,17 @@ body {
   .col-1{
     margin-right: 1px;
   }
+
+  .navbar{
+    display: none;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 992px) {
+  .navbar{
+    display: none;
+  }
+
+
 }
