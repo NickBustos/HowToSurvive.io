@@ -34,9 +34,8 @@ body {
   margin-top: 25px;
 }
 /* FOOTER */
-.text-muted {
-  --bs-text-opacity: 1;
-  color: #fff !important;
+footer{
+  color: white;
 }
 
 /* Extra small devices (phones, less than 768px) */
