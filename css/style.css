@@ -41,6 +41,8 @@ footer{
   color: white;
 }
 footer img{
+  padding: 2px;
+  border: 1px solid white;
   width: 30px;
 }
 
@@ -115,9 +117,12 @@ footer a{
 
 }
 
-/* Medium devices/tablets (768px to 992) */
+/* Medium devices/tablets (578px to 992) */
 @media (min-width: 768px) {
-
+    /* footer */
+    .col-lg-6 {
+      width: 45%;
+    }
   .row-center {
     align-items: center;
   }
@@ -162,6 +167,10 @@ footer a{
 
 /* Medium devices/desktop (992px and up) */
 @media (min-width: 992px) {
+  /* footer */
+  .col-lg-6 {
+    width: 45%;
+  }
   .row-center {
     align-items: center;
   }
