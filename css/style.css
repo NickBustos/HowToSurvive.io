@@ -129,7 +129,10 @@ footer a{
   .row-center {
     align-items: center;
   }
-
+  /* cards */
+  section .card{
+    font-size: 1vw;
+  }
   nav a img {
     max-width: 100%;
     position: relative;
