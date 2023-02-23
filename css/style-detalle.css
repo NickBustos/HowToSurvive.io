@@ -107,13 +107,6 @@ footer a{
     transition: 0.2s;
   }
 
-  .fondo {
-    background-image: url("../assets/images/fondo.jpg");
-    background-image: contain;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-  }
 
 }
 
@@ -146,12 +139,7 @@ footer a{
   }
 
   header nav {
-    background-image: url("../assets/images/fondo.jpg");
     align-items: end;
-    min-height: 500px;
-    background-image: contain;
-    background-size: cover;
-    background-position: center;
   }
 
   div.row {
@@ -191,12 +179,9 @@ footer a{
   }
 
   header nav {
-    background-image: url("../assets/images/fondo.jpg");
     align-items: end;
-    min-height: 500px;
-    background-image: contain;
-    background-size: cover;
-    background-position: center;
+
+
   }
 
   div.row {
