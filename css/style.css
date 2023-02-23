@@ -120,10 +120,10 @@ footer a{
 /* Medium devices/tablets (579px to 992) */
 @media (min-width: 579px) {
   /* footer */
-    .col-lg-6 {
+    footer .col-lg-6 {
       width: 50%;
     }
-    .col-md-6{
+    footer .col-md-6{
       width: 50%;
     }
   .row-center {
